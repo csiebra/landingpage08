@@ -1,15 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us - Foody</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlroj8Jt4y1c4Q00x9sB1z09rJ9+z1/2tVp4W/1y7R1h2A9u00w8t00b5f5J9n5L5T5T5Q5f5F5D5P5E5F5A5A5C5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-
 <body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">Foody</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Pages <i class="fas fa-caret-down"></i></a></li>
+                    <li><a href="#" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+            
+<div class="header-icons">
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+    </header>
 
+    <section class="hero-contact">
+        <div class="container hero-content">
+            <h1>Contact Us</h1>
+            <p>Home / Pages / Contact Us</p>
+        </div>
+    </section>
+
+    <main class="contact-main">
+        <div class="container contact-grid">
+            <div class="contact-info-block">
+                <h2>Ligue</h2>
+                <p>+55 321 456789</p>
+
+                <h2>Mande um e-mail</h2>
+                <p>foody@gmail.com</p>
+
+                <h2>Endereço</h2>
+                <p>Av Washington Soares,3636 - Edson Queiroz </p>
+
+                <h2>Siga a gente</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form-block">
+                <p class="form-intro-text">
+                    Preencha o formulário e baixe nosso catálogo AQUI: <a href="#">Download</a>.
+                </p>
+                <form>
+                    <div class="form-row">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea placeholder="Message" rows="6"></textarea>
+                    <button type="submit" class="btn-send-message">Mande uma mensagem</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="map-section container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.0777717255614!2d-38.48250462541855!3d-3.7881215961857193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c745dc35685f8d%3A0x7708bd134e0b2cf2!2sDigital%20College%20Sul!5e1!3m2!1spt-BR!2sbr!4v1752101913529!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content-grid">
+            <div class="footer-col about-foody">
+                <h3>Foody</h3>
+                <p>Peça já o seu catálogo e conheça os nossos produtos.</p>
+            </div>
+            <div class="footer-col address">
+                <h3>Endereço</h3>
+                <p>Av Washington Soares,3636 - Edson Queiroz</p>
+                <p>+55 321 456789</p>
+                <p>foody@gmail.com</p>
+            </div>
+            <div class="footer-col quick-links">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Term & Condition</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-col newsletter">
+                <h3>Newsletter</h3>
+                <p>Se inscreva em nossa Newsletter.</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Signup</button>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-bar container">
+            <p>&copy; Todos os direitos reservados</p>
+            <p>Designed By <a href="#">Nós</a> Distributed By <a href="#">Digital College</a></p>
+        </div>
+    </footer>
 </body>
-
 </html>
+
